@@ -177,6 +177,11 @@ section {
   margin-bottom: 16px
 }
 
+.uc-privacy-policy {
+  max-width: 940px;
+  margin: 24px auto;
+}
+
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
@@ -193,6 +198,10 @@ section {
     flex-direction: column;
     gap: 16px;
     height: auto;
+  }
+
+  .uc-privacy-policy {
+    margin: 0;
   }
 }
 
