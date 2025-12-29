@@ -1,0 +1,23 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const footerHTML = `
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <div class="footer-brand">
+                <img src="img/slyfoxlogo.png" alt="Sly Fox Games" class="footer-logo">
+                <span class="footer-title">Sly Fox Games</span>
+            </div>
+            <p class="footer-tagline">Creating fun, one tap at a time</p>
+        </div>
+        <nav class="footer-nav">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="impressum.html">Impressum</a>
+        </nav>
+    </div>
+    <div class="footer-copyright">
+        <p>© 2025 Sly Fox Games. All rights reserved.</p>
+    </div>
+</footer>
+`;
+    document.getElementById('footer-placeholder').innerHTML = footerHTML;
+});
