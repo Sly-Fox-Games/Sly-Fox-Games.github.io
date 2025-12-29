@@ -222,6 +222,12 @@ section {
   animation: float 6s ease-in-out infinite;
 }
 
+.lost-banner {
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+}
+
 .hero-tagline {
   font-size: 1.25em;
   color: #444;
