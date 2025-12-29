@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
         <nav class="footer-nav">
             <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="impressum.html">Impressum</a>
+            <a href="impressum.html">About us</a>
         </nav>
     </div>
     <div class="footer-copyright">
